@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link rel="shortcut icon" type="image/x-icon" href="../Images/img-DS.png" />
+  <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+  <title>About Us</title>
+  <link rel="stylesheet" href="../css/navbar.css" />
+  <link href="https://fonts.googleapis.com/css?family=Montserrat:400,700&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="../css/preloader.css" />
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.6.3/css/all.css" />
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.4/jquery.min.js"></script>
+  <script src="../js/preloader.js"></script>
+</head>
+<style>
+  body {
+    overflow-x: hidden;
+    font-family: "Montserrat";
+  }
+
+  .mapouter {
+    position: relative;
+    text-align: right;
+    border-radius: 14px;
+  }
+
+  .gmap_canvas {
+    overflow: hidden;
+    background: none !important;
+    width: 100%;
+    border-radius: 14px;
+    box-shadow: 1px 1px 3px rgba(0, 0, 0, 0.6);
+  }
+
+  .row {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    margin: 0 10%;
+  }
+
+  .col {
+    width: 45%;
+    margin: 0 10px 0 10px;
+  }
+
+  h1 {
+    text-align: center;
+  }
+
+  #about-us,
+  h1 {
+    font-family: "Montserrat";
+  }
+
+  nav {
+    position: relative;
+    background: transparent;
+  }
+
+  p {
+    text-align: justify;
+  }
+
+  figure>img {
+    width: 500px;
+    height: 500px;
+    object-fit: cover;
+    box-shadow: 1px 1px 4px rgba(0, 0, 0, 0.6);
+    border-radius: 7px;
+  }
+</style>
+
+<body>
+  <div class="se-pre-con"></div>
+  <nav>
+    <ul>
+      <li class="primary-nav">
+        <img src="../Images/img-DS.png" alt="logo" />
+        <a href="../index.html">JOURNR SHOES</a>
+      </li>
+      <li class="secondary-nav">
+        <a href="../HTML/checkout.html">
+          <i class="fas fa-shopping-cart"></i> CART
+        </a>
+      </li>
+      <li class="secondary-nav"><a href="../HTML/women.html">WOMEN</a></li>
+      <li class="secondary-nav"><a href="../HTML/men.html">MEN</a></li>
+      <li class="secondary-nav">
+        <a href="../HTML/about-us.html">ABOUT US</a>
+      </li>
+    </ul>
+  </nav>
+  <h1>About JOURNR Shoes</h1>
+  <div class="row">
+    <section class="mapouter col">
+      <div class="gmap_canvas">
+        <iframe width="100%" height="500vw" id="gmap_canvas"
+          src="https://maps.google.com/maps?q=windsor%20ontario&t=&z=13&ie=UTF8&iwloc=&output=embed" frameborder="0"
+          scrolling="no" marginheight="0" marginwidth="0"></iframe>
+      </div>
+    </section>
+
+    <section id="about-us" class="col">
+      <p>
+        JOURNR Shoes was started back in 2009 by
+        <strong>Shail Patel</strong>, The team started producing shoes only
+        in 2019. In addition to female and male, there is a children's line.
+        Shoes of non-dull styles and rich colors immediately catch the eye.
+      </p>
+      <p>
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolorum saepe
+        architecto consequuntur beatae vitae
+        nesciunt fugiat hic? Maxime, ab. Qui fuga natus mollitia laborum
+        delectus ad quidem? Rem, omnis laudantium.
+        <br />Lorem ipsum dolor sit amet consectetur, adipisicing elit. Voluptate libero aliquam quam quo totam
+        provident quasi omnis, atque nam modi voluptatibus, ex corporis natus numquam, nemo similique enim alias
+        officia.
+      </p>
+      <h2>Mission</h2>
+      <p>
+        Lorem ipsum dolor sit, amet consectetur adipisicing elit. Eos eum ratione iusto adipisci officia magni maiores
+        vel doloribus delectus ipsa aut quasi, fuga ea cumque in sit odio alias quam! Lorem ipsum dolor sit, amet
+        consectetur adipisicing elit. Repudiandae porro quae aperiam. Beatae, sapiente. Beatae tenetur corporis sequi
+        voluptates molestias dignissimos perferendis nostrum fuga velit, doloremque ullam nihil obcaecati quos. Lorem
+        ipsum dolor sit amet consectetur adipisicing elit. Quasi consequuntur harum exercitationem pariatur molestias
+        veritatis optio explicabo at, quidem nobis enim labore nam repellat adipisci in odit qui repellendus quis.
+      </p>
+    </section>
+  </div>
+
+</body>
+
+</html>
